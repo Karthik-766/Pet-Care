@@ -1,0 +1,51 @@
+# Byte-compiled files
+*.pyc
+__pycache__/
+
+# IDE & Editor Configurations
+.idea/
+.vscode/
+*.swp  # Swap files for Vim
+
+# Logs & Debugging
+logs/
+*.log
+debug.log
+
+# Virtual Environments
+venv/
+env/
+.env
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Database Files (optional, but good practice)
+*.db
+*.sqlite
+*.sqlite3
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Flask & Django Specific
+instance/
+config.py
+__pycache__/
+
+# Node.js (If Using npm for frontend)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Docker & Deployment
+*.dockerfile
+docker-compose.override.yml
+
+# Coverage Reports
+.coverage
+htmlcov/
